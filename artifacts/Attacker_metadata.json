@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "victim",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "collectEther",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_victimAddress",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hw4_attack.sol": "Attacker"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hw4_attack.sol": {
+			"keccak256": "0x31a221b9ce30cf3239a2654d431eb56b2e24982c64b57af79b2377d4e2a3f358",
+			"urls": [
+				"bzzr://bbbffa4e6f228fa97ae72cede69d80667620ab585f0ec99002fceb6e2af32fa7"
+			]
+		},
+		"hw4_victim.sol": {
+			"keccak256": "0x0dce497579ef516116e137ba2097d345e06dc452a272f8539a18561ef76d7086",
+			"urls": [
+				"bzzr://625fe265ce07a1a8dae968d7b4e7101cc1039bff23886e7abeddc842d75629b9"
+			]
+		}
+	},
+	"version": 1
+}

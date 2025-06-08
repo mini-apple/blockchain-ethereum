@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.6.4+commit.1dca32f3"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract PacktToken",
+						"name": "_tokenContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenPrice",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_buyer",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Sell",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numberOfTokens",
+						"type": "uint256"
+					}
+				],
+				"name": "buyToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "endSale",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenContract",
+				"outputs": [
+					{
+						"internalType": "contract PacktToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenSold",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab3/lab3_ex2_tokenSale.sol": "TokenSale"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab3/lab3_ex1_packtToken.sol": {
+			"keccak256": "0x97f0a8a5af19b73a3bde22684943f6ebe6fb2695d38c77fc45e7b1a474d8ccb4",
+			"urls": [
+				"bzz-raw://d6490ee66a7cadaa84370c38f67ba5a4c8a1c530de31ee1516784e187ebe5fc6",
+				"dweb:/ipfs/QmVtdSukFT2uyTj4UKcxdA92KHmFCuX2tPg9TCJ8WXv1jC"
+			]
+		},
+		"lab3/lab3_ex2_tokenSale.sol": {
+			"keccak256": "0xcdd53675193715d3d0d2b98848681b7e1ad711d8fec0aee67c48d08c57658303",
+			"urls": [
+				"bzz-raw://8c717a3103944fc94aaccff5018b7931a42aeedc47bbdbf30a92ccf40a15ff4f",
+				"dweb:/ipfs/QmbMcNXjnXSSAW8Mpzgm72QL56gYRrEc44jjd5xs7hFQmp"
+			]
+		}
+	},
+	"version": 1
+}
